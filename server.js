@@ -1,23 +1,19 @@
 var express = require("express")
 var app = express()
-var port = 8080
 var path = require("path")  
-
+var port = 8080
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
 app.use(express.static(__dirname + "/public"));
 
-app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname,  'public/index.html'));
-});
 
-app.get("/practice", function(req, res) {
-  res.sendFile(path.join(__dirname,  'public/practice.html'));
-});
+// serving routes
+var htmlroutes = require('./routes/htmlroutes');
+app.use('/', htmlroutes);
 
-
+   
+//deployment
 app.listen(process.env.PORT || 8080, function(){
     console.log("server running on port : " + port)
   });
