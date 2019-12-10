@@ -12,7 +12,6 @@ app.use(express.static(__dirname + "/public"));
 var htmlroutes = require('./routes/htmlroutes');
 app.use('/', htmlroutes);
 
-   
 //deployment
 app.listen(process.env.PORT || 8080, function(){
     console.log("server running on port : " + port)
