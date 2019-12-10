@@ -1,7 +1,10 @@
 body{
-    background: red;   
-}   
-img{
-    height: 200px;
-    width: 300px;
+    background-image: url('img/sky.jpg');
+    color: white;
+} 
+#heading{
+    padding:30px;
+}  
+.mainP{
+    margin-top: 25px;
 }
