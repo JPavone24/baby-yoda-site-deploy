@@ -1,0 +1,25 @@
+#login-body{ 
+    background-color:  rgb(165, 194, 159, 0.7);
+    padding:10px;
+  
+ }
+
+ #login-pic{
+    margin-top: 30px;
+} 
+
+#login-form{
+    background-color:  rgb(165, 194, 159, 0.7); 
+    padding:20px;
+    
+} 
+
+#login-submit{
+    background-color: rgb(193, 214, 188);
+}
+
+#login-register{
+    background-color:  rgb(184, 253, 167);
+    padding: 10px;
+    color:black;
+}

@@ -14,6 +14,7 @@
 
         <!-- personal css -->
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/login.css">
     </head>
 <body>
 
@@ -32,7 +33,7 @@
             </li>
             <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/login">Login</a>
-            </li>
+            </li>  
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="/register">Register</a>
             </li>
@@ -45,53 +46,68 @@
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="/news">News</a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/merch">Merch</a>
-        </li>
-        <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/chat">Chat/Forems</a>
-            </li>
         </ul>
         </div>
     </div>
 </nav>
 <!-- end of navbar -->
 
+<!-- heading -->
 <div class = "container">
     <div class = "row">
         <div class = "col-lg-12">
-            <h1 id = "heading" class = "text-center">heading</h1>
+            <h1 id = "heading" class = "text-center">Log in</h1>
         </div>
     </div>
-    
-    <div class = "row">
-        <div class = "col-lg-4 col-md-4">
-            <img class = "img-fluid img-thumbnail" src = "img/babyYoda/boby-yoda-soup.jfif">
-            <p class = "mainP"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Officia, iusto sapiente! In fugiat quidem soluta hic odio 
-                quod quos ad iste excepturi eaque repellendus blanditiis 
-                sunt quas, vitae odit veniam.
-            </p>
-        </div>
-        <div class = "col-lg-4 col-md-4">
-            <img class = "img-fluid img-thumbnail" src = "img/babyYoda/baby-yoda-in-crib.jfif">
-            <p class = "mainP"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Officia, iusto sapiente! In fugiat quidem soluta hic odio 
-            quod quos ad iste excepturi eaque repellendus blanditiis 
-            sunt quas, vitae odit veniam.
-            </p>
-        </div>
-        <div class = "col-lg-4 col-md-4">  
-            <img class = "img-fluid img-thumbnail" src = "img/babyYoda/use-teh-force.jpg">
-            <p class = "mainP"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Officia, iusto sapiente! In fugiat quidem soluta hic odio 
-                quod quos ad iste excepturi eaque repellendus blanditiis 
-                sunt quas, vitae odit veniam.
-            </p>
-        </div>
-    </div>
-</div> 
+<!-- end of heading -->
 
-        <script src="index.js" async defer></script> -->
+<!-- form -->
+    <div class = "row" id = "login-body">
+        <!-- baby yoda pic -->
+        <div class = "col-lg-8 col-md-12 col-sm-12 col-xs-12">
+            <div class = "row">
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <img id = "login-pic" class="img-fluid rounded" src = "img/babyYoda/baby-yoda-in-crib.jfif">  
+                </div>  
+            </div>   
+        </div>
+
+        <!-- fill out part -->
+        <div id = "form-div"class = "col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <form id = "login-form" class="h-100">  
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+
+                <button type="submit" id = "login-submit" class="btn btn-default" >Submit</button>
+                <p>Don't have an account? Click the button to register!</p>
+                <button  type="submit" id = "login-register" class="btn btn-default w-100"><a href="/register" >Register</a></button>
+            </form>
+        </div>
+        <!-- end of form -->
+    </div>
+    <!-- end of row -->
+</div>
+ <!-- end of container -->
+
+ 
+            <footer class="footer">
+                <div class="two-toned-footer-color"></div>
+                <p class="footer-block" class="text-muted text-muted-footer text-center">      
+                </p>
+            </footer>
+     
+
+        <!-- <script src="index.js" async defer></script> --> 
     </body>
 </html>        

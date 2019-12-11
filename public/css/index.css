@@ -2,9 +2,9 @@ body{
     background-color: rgba(51, 43, 39);
     background-image: url("../img/babyYoda/use-teh-force.jpg");
     height:525px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
   
 #baby-yoda-pic{
