@@ -21,9 +21,9 @@ connection.once('open', () => {
 
 // serving routes
 var htmlroutes = require('./routes/htmlroutes');
-var apiroutes = require('./routes/apiroutes.js');
+// var apiroutes = require('./routes/apiroutes.js');
 app.use('/', htmlroutes);
-app.use('/api', apiroutes);
+// app.use('/api', apiroutes);
 
 //deployment
 app.listen(process.env.PORT || 8080, function(){
