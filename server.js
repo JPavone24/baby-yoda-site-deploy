@@ -1,17 +1,20 @@
 var express = require("express")
 var app = express()
+var port = 8080
+var path = require("path")  
 
-router.get("/", function(req, res) {
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static(__dirname + "/public"));
+
+app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname,  '../public/index.html'));
 });
-// var path = require("path")  
-// var port = 8080
+
+
 // var mongoose = require("mongoose")
 
 
-// app.use(express.urlencoded({ extended: true }));
-// app.use(express.json());
-// app.use(express.static(__dirname + "/public"));
 
 // require('dotenv').config();
 // const uri = process.env.ATLAS_URI;
