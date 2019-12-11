@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'agatha';
+    src: url('../fonts/agatha/Agatha.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'aldus';
+    src: url('../fonts/aldus_royal/Royal.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'aliens';
+    src: url('../fonts/aliens-ate-my-mum/1001fonts-aliens-ate-my-mum-eula.txt');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'mysticora';
+    src: url('../fonts/dan-smiths-fantasy-fonts_ds-mysticora/DS_Mysticora.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'dreamwood';
+    src: url('../fonts/herofonts_dreamwood-demo/DreamwoodDemoRegular-Zj3q.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'secco';
+    src: url('../fonts/liliane-mendoza_ipanema-secco/Ipanema\ Secco.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'unicorn';
+    src: url('../fonts/mistis-fonts_unicorn-calligraphy/Unicorn\ Calligraphy\ -\ TTF.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'party';
+    src: url('../fonts/nancy-lorenz_party-business/partybusiness.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  
+  @font-face {
+    font-family: 'moon-wizard';
+    src: url('../fonts/roland-huse-design_wizard-of-the-moon/WizardOfTheMoon-YG5y.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+
+  
+  @font-face {
+    font-family: 'rosebed';
+    src: url('../fonts/rosbed/1001fonts-rosbed-eula.txt');
+    font-styles: normal;
+    font-weight:100;
+  }
+
+  @font-face {
+    font-family: 'metomorphasis';
+    src: url('../fonts/sorkin-type_metamorphous/Metamorphous-Regular.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  @font-face {
+    font-family: 'youth';
+    src: url('../fonts/young-beautiful/Mf\ Young\ &\ Beautiful.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+
+

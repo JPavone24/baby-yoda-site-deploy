@@ -1,12 +1,29 @@
 /* fonts */
 
-
 @font-face {
   font-family: 'agatha';
   src: url('../fonts/agatha/Agatha.ttf');
   font-styles: normal;
   font-weight:100;
 }
+
+@font-face {
+  font-family: 'indie';
+  src: url('../fonts/Patrick_Hand_SC/PatrickHandSC-Regular.ttf');
+  font-styles: normal;
+  font-weight:100;
+}
+
+@font-face {
+  font-family: 'handwritten';
+  src: url('../fonts/Handlee/Handlee-Regular.ttf');
+  font-styles: normal;
+  font-weight:100;
+}
+
+
+
+/*  */
 
 body{
     background-image: url('../img/sky.jpg');
@@ -22,10 +39,58 @@ body{
   margin-bottom: 15px;
 }      
 
+    
+#sub-heading{
+  text-align: center;
+  font-family: "indie";
+  font-weight: 70;
+}    
+ 
 .mainP{
-  margin-top: 30px;
+  color: rgba(250, 250, 250, 0.918);
+  font-family: "indie";
+  margin-top:10px;
+  font-size: 20px;
+  background-color:rgb(1, 38, 73);
+  padding:20px;
+  border: 3px solid rgb(0, 23, 44);;
+}
+#news-heading{
+  text-align: center;
+  font-family: "agatha";
+  color: rgba(165, 194, 159);
+  font-weight: 100;
+  font-size: 100px;
+  margin-top:0px;
+  margin-bottom: 20px;
+  border: 5px solid white;
+  padding:30px;
+  background-color:rgba(1, 24, 46);
+} 
+
+#newsBody{
+  border: 5px solid white;
+  padding:30px;
+  margin-top:30px;
+  background-color:rgb(1, 13, 24);
 }
 
+.story-body{
+  border: 3px solid rgb(0, 6, 12);
+  padding:10px;
+  margin-bottom: 10px;
+  background-image: url('/img/sky.jpg');
+  
+}
+.paragraph-text{
+  color: rgba(250, 250, 250, 0.918);
+  font-family: "handwritten";
+  margin-top:10px;
+  font-size:20px;
+  background-color:rgb(1, 38, 73);
+  padding:20px;
+  border: 3px solid rgb(0, 23, 44);
+}
 .footer {
     /* Positioning */
     position: relative;

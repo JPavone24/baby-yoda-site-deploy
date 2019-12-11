@@ -1,0 +1,12 @@
+
+.merch-heading{
+    text-align: center;
+    font-family: "handwritten";
+    font-size:40px;
+    color:white;
+}   
+.merch-heading:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}   
+

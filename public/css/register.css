@@ -1,11 +1,38 @@
+
+@font-face {
+    font-family: 'agatha';
+    src: url('../fonts/agatha/Agatha.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+  @font-face {
+    font-family: 'indie';
+    src: url('../fonts/Indie_Flower/IndieFlower-Regular.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+
 #register-body{ 
     background-color:  rgb(165, 194, 159, 0.7);
-    padding:10px;
-  
+    padding:15px;
+    border:5px solid rgb(165, 194, 159);
  }
-  
- #registerpic{
-    margin-top: 30px;
+#info{
+    background-color:  rgb(165, 194, 159);
+    color: black;
+    padding:20px;
+}
+#pitch{
+    background-color:  rgb(165, 194, 159);
+    color: black;
+    padding:20px;
+    font-family: "indie";
+    margin-top: 5px;
+    font-size: 20px;
+}
+ #register-pic{
+    border:5px solid rgb(111, 139, 120);
 } 
 
 #register-form{
