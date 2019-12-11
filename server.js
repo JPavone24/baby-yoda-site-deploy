@@ -7,9 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(__dirname + "/public"));
 
-app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname,  '../public/index.html'));
-});
+
 
 
 // var mongoose = require("mongoose")
@@ -27,9 +25,9 @@ app.get("/", function(req, res) {
 // })
 
 // // serving routes
-// var htmlroutes = require('./routes/htmlroutes');
+var htmlroutes = require('./routes/htmlroutes');
 
-// app.use('/', htmlroutes);
+app.use('/', htmlroutes);
 
 //deployment
 app.listen(process.env.PORT || 8080, function(){
