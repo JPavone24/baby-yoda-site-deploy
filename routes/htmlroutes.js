@@ -3,7 +3,7 @@ var router = express.Router();
 var path = require("path")
 
 router.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname,  'index.html'));
+    res.sendFile(path.join(__dirname,  '../public/index.html'));
 });
 
 router.get("/login", function(req, res) {
@@ -24,6 +24,10 @@ router.get("/videos", function(req, res) {
 
 router.get("/news", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/news.html'));
+});
+
+router.get("/sellers", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/sellers.html'));
 });
 
 router.get("/practice", function(req, res) {
