@@ -26,9 +26,7 @@ router.get("/news", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/news.html'));
 });
 
-// router.get("/sellers", function(req, res) {
-//     res.sendFile(path.join(__dirname,  '../public/sellers.html'));
-// });
+
 
 router.get("/practice", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/practice.html'));
