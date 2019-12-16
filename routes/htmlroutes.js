@@ -26,12 +26,17 @@ router.get("/news", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/news.html'));
 });
 
+router.get("/practice", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/practice.html'));
+});
+
+//Merch Routes
 router.get("/merch", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/merch.html'));
 });
 
-router.get("/practice", function(req, res) {
-    res.sendFile(path.join(__dirname,  '../public/practice.html'));
+router.get("/merch/mugs", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/mugs.html'));
 });
 
 module.exports = router;
