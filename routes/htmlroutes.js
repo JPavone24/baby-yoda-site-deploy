@@ -35,6 +35,14 @@ router.get("/merch", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/merch.html'));
 });
 
+router.get("/merch2", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/merch2.html'));
+});
+
+router.get("/checkout", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/checkout.html'));
+});
+
 router.get("/merch/mugs", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/mugs.html'));
 });

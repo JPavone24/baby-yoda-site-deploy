@@ -1,0 +1,91 @@
+<!DOCTYPE html>  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bootstrap css -->   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- personal css -->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/checkout.css">
+    </head>
+<body>
+ 
+<div class = "container">
+    <div class = "row">
+        <div class = "col-lg-12">
+            <h1 id = "heading" class = "text-center">Checkout</h1>
+        </div>
+    </div>
+    
+    <div class = "row" id = "dynamic-div"></div>
+    <!-- end of row --> 
+</div>    
+<div class="container" >
+    <h1 id = "heading" class="mt-5">Checkout!</h1>
+    <div id="card-errors" role="alert"></div>
+    <div class="card" id = "checkout-form">
+        <div class="card-body">
+            <form id="payment-form">
+                <label for="name">Name on Card</label>
+                <div class="input-group mb-2">
+                    <!-- <div class="input-group-prepend"> -->
+                        <!-- <span class="input-group-text"></span> -->
+                    <!-- </div> -->
+                    <input type="text" class="form-control" id="name">
+                    <!-- <div class="input-group-append">
+                        <span class="input-group-text"></span>
+                    </div> -->
+                </div>
+                <label for="card-number">Credit Card Number</label>
+                <div class="input-group mb-2">
+                    <!-- <div class="input-group-prepend">
+                        <span class="input-group-text"></span>
+                    </div> -->
+                    <span id="card-number" class="form-control">
+                        <!-- Stripe Card Element -->
+                    </span>
+                    <!-- <div class="input-group-append">
+                        <span class="input-group-text"></span>
+                    </div> -->
+                </div>
+
+                <label for="card-cvc">CVC Number</label>
+                <div class="input-group mb-2">
+                    <!-- <div class="input-group-prepend">
+                        <span class="input-group-text"></span>
+                    </div> -->
+                    <span id="card-cvc" class="form-control">
+                        <!-- Stripe CVC Element -->
+                    </span>
+                </div>
+
+
+                <label for="card-exp">Expiration</label>
+                <div class="input-group mb-2">
+                    <span id="card-exp" class="form-control">
+                        <!-- Stripe Card Expiry Element -->
+                    </span>
+                    <!-- <div class="input-group-append">
+                        <span class="input-group-text"></span>
+                    </div> -->
+                </div>
+                <button id="payment-submit" class="btn btn-primary mt-1">Submit Payment</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+        <script src="../js/checkout.js" async defer></script> -->
+    </body>
+</html>        
+
+
+</div>

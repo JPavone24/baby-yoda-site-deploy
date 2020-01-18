@@ -10,7 +10,7 @@ const port = process.env.port || 3000;
 var htmlroutes = require('./routes/htmlroutes');
 var apiroutes = require('./routes/apiroutes');
       
-// require('dotenv').config();     
+require('dotenv').config();     
 const uri = process.env.MONGODB_URI;
 mongoose.connect( uri ||"mongodb://localhost/baby-yoda", {
    useNewUrlParser: true, 

@@ -37,6 +37,17 @@ router.get('/merch/:department', (req, res)=> {
         })
 })
 
+router.get('/merch/:department', (req, res)=> {
+    merch.find({department: req.params.department})
+        .then((data) =>{
+            console.log('data: ', data)
+            res.json(data)
+        })
+        .catch((error)=>{
+            console.log('error: ', error)
+        })
+})
+
 router.get('/sellers/:seller', (req, res)=> {
     merch.find({nameOfSeller: req.params.seller})
         .then((data) =>{
