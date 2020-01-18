@@ -13,11 +13,11 @@
     font-weight:100;
   }
 
-#register-body{ 
+/* #register-body{ 
     background-color:  rgb(165, 194, 159, 0.7);
     padding:15px;
     border:5px solid rgb(165, 194, 159);
- }
+ } */
 #info{
     background-color:  rgb(165, 194, 159);
     color: black;
