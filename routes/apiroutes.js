@@ -49,7 +49,7 @@ router.get('/merch/:department', (req, res)=> {
 var Cart = [
 
 ];
-
+  
 router.get('/cart', (req, res)=> {
     res.json(Cart)
 })  
