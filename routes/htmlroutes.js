@@ -47,4 +47,16 @@ router.get("/merch/mugs", function(req, res) {
     res.sendFile(path.join(__dirname,  '../public/mugs.html'));
 });
 
+router.get("/merch/art", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/art.html'));
+});
+
+router.get("/merch/fashion", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/fashion.html'));
+});
+
+router.get("/merch/toys", function(req, res) {
+    res.sendFile(path.join(__dirname,  '../public/toys.html'));
+});
+
 module.exports = router;

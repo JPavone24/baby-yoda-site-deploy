@@ -17,10 +17,7 @@ function UpdateCart(){
 UpdateCart()
 
 
- 
-
-
-$.get("../api/merch/mugs", function(data) {
+$.get("../api/merch/art", function(data) {
         Data = data
         console.log(data[0])
              for(var i = 0; i < 8; i++){
